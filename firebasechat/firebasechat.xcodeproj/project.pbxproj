@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3D413686289E72AC002988DC /* firebasechatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D413685289E72AC002988DC /* firebasechatApp.swift */; };
-		3D413688289E72AC002988DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D413687289E72AC002988DC /* ContentView.swift */; };
+		3D413688289E72AC002988DC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D413687289E72AC002988DC /* LoginView.swift */; };
 		3D41368A289E72AE002988DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D413689289E72AE002988DC /* Assets.xcassets */; };
 		3D41368D289E72AE002988DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D41368C289E72AE002988DC /* Preview Assets.xcassets */; };
 		3D413697289E72AE002988DC /* firebasechatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D413696289E72AE002988DC /* firebasechatTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		3D413682289E72AC002988DC /* firebasechat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firebasechat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D413685289E72AC002988DC /* firebasechatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firebasechatApp.swift; sourceTree = "<group>"; };
-		3D413687289E72AC002988DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3D413687289E72AC002988DC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		3D413689289E72AE002988DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D41368C289E72AE002988DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3D413692289E72AE002988DC /* firebasechatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firebasechatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				3D413685289E72AC002988DC /* firebasechatApp.swift */,
-				3D413687289E72AC002988DC /* ContentView.swift */,
+				3D413687289E72AC002988DC /* LoginView.swift */,
 				3D413689289E72AE002988DC /* Assets.xcassets */,
 				3D41368B289E72AE002988DC /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D413688289E72AC002988DC /* ContentView.swift in Sources */,
+				3D413688289E72AC002988DC /* LoginView.swift in Sources */,
 				3D413686289E72AC002988DC /* firebasechatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,6 +423,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -430,7 +431,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = example.firebasechat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.firebasechat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -452,6 +453,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -459,7 +461,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = example.firebasechat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.firebasechat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
